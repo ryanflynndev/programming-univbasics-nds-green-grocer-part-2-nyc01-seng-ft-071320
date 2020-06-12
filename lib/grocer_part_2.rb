@@ -45,5 +45,5 @@ def checkout(cart, coupons)
   final_cart = apply_clearance(couponed_cart)
   
   final_cart.each do |element|
-    total += element[]
+    total += element[:price] * element[:count]
 end
