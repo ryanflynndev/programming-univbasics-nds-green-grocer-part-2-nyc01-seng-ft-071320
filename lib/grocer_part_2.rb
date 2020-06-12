@@ -8,7 +8,7 @@ def apply_coupons(cart, coupons)
   
   coupons.each do |element|
     cart_item = find_item_by_name_in_collection(element[:item], cart)
-    coupon_item_name = "#{element[:item}"
+    coupon_item_name = "#{element[:item} W/COUPON"
   end
   
 end
